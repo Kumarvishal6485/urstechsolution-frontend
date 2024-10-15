@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(background-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    color : #e97e0c;
+    font-size : 35px;
+    font-weight : 700;
+}
+
+li{
+    color : #ffffff;
+    font-weight : 600;
+    list-style : none;
+}
+
+li input[type="text"]{
+    background-color: transparent;
+    outline : none;
+    padding : 4px 10px;
+    border : 1px solid #e97e0c;
+    border-radius : 4px;
+    color : #ffffff;
+}
+
+li input[type="submit"]{
+    color : #ffffff;
+    border : none;
+    background-color : #e97e0c;
+    padding : 5px 10px;
+    border-radius : 4px;
+    transform : translateX(-5px);
+}
+
+li input[type="text"]::placeholder{
+    color : #ffffff;
+}
+
+.navlinks{
+    padding-top : 40px;
+    display: flex;
+    align-items : center;
+    justify-content : center;
+    gap: 140px;
+}
+
+ul{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap : 60px;
+}
+
+ul li a{
+    color : #ffffff;
+}
+
+.description{
+    color : #ffffff;
+}
+.orange-text{
+    color : #e97e0c;
+    font-size : 53px !important;
+}
+
+.content{
+    display : flex;
+    gap: 320px;
+    padding : 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    padding: 30px 40px;
+}
+
+form , .contact-form{
+    background-color: #0009;
+    color : #ffffff;
+    display : flex;
+    flex-direction: column;
+    border-radius : 6px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    gap : 20px !important;
+}
+
+form{
+    background-color : transparent;
+}
+
+.contact-form input[type="text"]{
+    background : transparent;
+    border: none;
+    border-bottom : 1px solid #e97e0c;
+    padding-bottom : 4px;
+    outline : none;
+}
+
+.contact-form input[type="text"]::placeholder{
+    color : #ffffff;
+}
+
+.contact-form input[type="text"]{
+    color : #ffffff;
+}
+
+input[type="submit"]{
+    background-color: #e97e0c;
+    padding : 5px 60px;
+    border : none;
+    border-radius : 4px;
+}
+
+button{
+    color : #e97e0c;
+    background-color: #ffffff;
+    padding : 5px 45px;
+    border : none;
+    border-radius : 4px;
+}
+
+a ion-icon{
+    color : #ffffff;
+    padding : 4px;
+    font-size : 25px;
+}
+
+p a{
+    color : #e97e0c;
+}
+
+a{
+    text-decoration: none;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+button , input[type="submit"]{
+    cursor: pointer;
+}
+
+.description button{
+    width: fit-content;
+    color : #000000;
+    background-color: #e97e0c;
+    padding : 5px 60px;
+    border : none;
+    border-radius : 4px;
+    font-weight: 400;
+}
+
+.description h1{
+    font-size : 40px;
+}
+
+.description span{
+    line-height: 1.3;
+}
